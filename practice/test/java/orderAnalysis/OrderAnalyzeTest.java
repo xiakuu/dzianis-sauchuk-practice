@@ -1,4 +1,4 @@
-package customLinkedList;
+package orderAnalysis;
 import javaCore.analysis.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
