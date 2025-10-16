@@ -1,0 +1,5 @@
+package javaCore.analysis;
+
+public enum OrderStatus {
+    NEW, PROCESSING, SHIPPED, DELIVERED, CANCELLED
+}
