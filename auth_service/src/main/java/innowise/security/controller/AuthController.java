@@ -1,13 +1,11 @@
 package innowise.security.controller;
 
 import innowise.security.domain.dto.RefreshRequest;
-import innowise.security.repository.UserRepository;
 import innowise.security.service.JwtService;
 import innowise.security.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
@@ -16,7 +14,6 @@ import innowise.security.domain.dto.SignInRequest;
 import innowise.security.domain.dto.SignUpRequest;
 import innowise.security.service.AuthenticationService;
 
-import java.util.Map;
 
 @RestController
 @RequestMapping("/auth")
