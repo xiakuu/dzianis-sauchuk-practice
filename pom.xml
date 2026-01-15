@@ -12,6 +12,7 @@
     </parent>
 
     <modules>
+        <module>api_gateway</module>
         <module>auth_service</module>
         <module>order_service</module>
         <module>userservice</module>
